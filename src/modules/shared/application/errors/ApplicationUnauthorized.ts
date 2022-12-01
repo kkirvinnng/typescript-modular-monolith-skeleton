@@ -1,0 +1,1 @@
+export class ApplicationUnauthorized extends Error { }

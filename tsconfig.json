@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "rootDir": "src",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "./lib",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "target": "ES2016",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "allowJs": true, 
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

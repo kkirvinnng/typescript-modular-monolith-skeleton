@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "simple-import-sort", 
+    "import"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {  
+   "semi": ["error", "never"],
+   "quotes": ["error", "single"],
+   "no-empty": "error",
+   "@typescript-eslint/no-non-null-assertion": "off",
+   "@typescript-eslint/no-explicit-any": "off",
+   "@typescript-eslint/no-empty-function": "off",
+   "simple-import-sort/exports": "error",
+   "import/first": "error",
+   "import/newline-after-import": "error",
+   "import/no-duplicates": "error"
+  }
+}
